@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "bastighg",
+  "version": "${version}",
+  "name": "BastiGHG Begleiter",
+  "description": "Ein clientseitiger Begleiter, der dir folgt, Loot bewertet und Laender samt Flagge nennt.",
+  "authors": ["Du"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.bastighg.BastiMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
